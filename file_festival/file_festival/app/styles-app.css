@@ -12,6 +12,9 @@ body {
 
 /* # section hero */
 
+.navbar{
+    background-color:var(--fond)
+}
 
 
 .h1 {
