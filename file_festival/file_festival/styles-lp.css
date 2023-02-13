@@ -16,13 +16,13 @@ body {
 /* # section hero */
 
 
-.navbar-brand{
+a{
 
     font-family: lostar;
 }
-
-
-/* # section hero */
+#mainNav{
+    margin-left: 10px;
+}
 
 .navbar{
     background-color:var(--fond)
@@ -39,6 +39,9 @@ body {
 
 
 /*#  Fonctionalitées*/
+main{
+    margin-bottom: 100px;
+}
 
 
 /* # Footer*/
