@@ -12,11 +12,11 @@ body {
 @font-face {
     font-family: lostar;
     src: url(Lostar.ttf);
-
+}
 /* # section hero */
 
 .navbar{
-    background-color:var(--fond);
+  background-color:var(--fond);
 }
 .navbar-brand{
 
