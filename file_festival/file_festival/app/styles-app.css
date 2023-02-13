@@ -44,7 +44,7 @@ main{
 
 
 .footer{
-    background-image: linear-gradient(#d9d9d9,var(--fond));
+    background-image: linear-gradient(#fff,var(--fond));
     padding:1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -55,4 +55,23 @@ main{
     border-radius: 5px;
     padding: 10px;
     max-width: 200px;
+}
+
+.input-group{
+    margin-top: 150px;
+}
+
+ul{
+    list-style-type: none;
+   
+}
+
+.boutons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.btn:hover{
+    background-color: var(--fond);
 }
