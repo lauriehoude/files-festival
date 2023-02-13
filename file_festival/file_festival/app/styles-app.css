@@ -9,22 +9,28 @@ body {
     --noir: rgba(0, 0, 0, 100%);
 }
 
-
+@font-face {
+    font-family: lostar;
+    src: url(lostar.ttf);
+}
 /* # section hero */
 
 .navbar{
-    background-color:var(--fond)
+    background-color:var(--fond);
+}
+.navbar-brand{
+
+    font-family: lostar;
 }
 
 .logo{
     width: 50px;
 }
 
-.h1 {
-    background-color: var(--fond);
-    font-size: 40px;
-}
+.avatar{
+    width: 40px;
 
+}
 
 /*#  Fonctionalitées*/
 

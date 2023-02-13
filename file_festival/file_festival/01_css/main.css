@@ -3,7 +3,10 @@ html,
 body {
     background-color: #d9d9d9;
 }
-
+@font-face {
+    font-family: lostar;
+    src: url(lostar.ttf);
+}
 :root {
     --fond: #B08FF6;
     --noir: rgba(0, 0, 0, 100%);
@@ -17,6 +20,7 @@ body {
 .h1 {
     background-color: var(--fond);
     font-size: 40px;
+    font-family: lostar;
 }
 
 
