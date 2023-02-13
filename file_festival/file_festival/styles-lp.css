@@ -1,0 +1,26 @@
+
+html,
+body {
+    background-color: #d9d9d9;
+}
+
+:root {
+    --fond: #B08FF6;
+    --noir: rgba(0, 0, 0, 100%);
+}
+
+
+/* # section hero */
+
+
+
+.h1 {
+    background-color: var(--fond);
+    font-size: 40px;
+}
+
+
+/*#  Fonctionalitées*/
+
+
+/* # Footer*/
