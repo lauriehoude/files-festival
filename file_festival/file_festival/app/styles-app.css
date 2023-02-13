@@ -37,3 +37,10 @@ body {
 
 
 /* # Footer*/
+
+.foot{
+    background-color: #B08FF6;
+    padding:1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
