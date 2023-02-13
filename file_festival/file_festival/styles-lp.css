@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .navbar{
     background-color:var(--fond)
 }
@@ -11,31 +11,3 @@
     background-color: var(--fond);
     font-size: 40px;
 }
-=======
-
-html,
-body {
-    background-color: #d9d9d9;
-}
-
-:root {
-    --fond: #B08FF6;
-    --noir: rgba(0, 0, 0, 100%);
-}
-
-
-/* # section hero */
-
-
-
-.h1 {
-    background-color: var(--fond);
-    font-size: 40px;
-}
-
-
-/*#  Fonctionalitées*/
-
-
-/* # Footer*/
->>>>>>> f8b73d60cac9dabc09947066adef58b37ed9e79d
