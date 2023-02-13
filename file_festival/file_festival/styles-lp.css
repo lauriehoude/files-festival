@@ -1,7 +1,7 @@
 
 html,
 body {
-    background-color: #d9d9d9;
+    background-color: white;
 }
 
 :root {
@@ -36,6 +36,10 @@ a{
     background-color: var(--fond);
     font-size: 40px;
 }
+ul{
+    list-style-type: none;
+   
+}
 
 
 /*#  Fonctionalitées*/
@@ -55,6 +59,3 @@ main{
     margin-bottom: 1rem;
 }
 
-ul{
-    list-style-type: none;
-}

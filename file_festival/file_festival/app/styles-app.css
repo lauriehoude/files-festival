@@ -1,7 +1,7 @@
 
 html,
 body {
-    background-color: #d9d9d9;
+    background-color: white;
 }
 
 :root {
@@ -19,6 +19,7 @@ body {
 .navbar{
   background-color:var(--fond);
 }
+
 .navbar-brand{
 
     font-family: lostar;
