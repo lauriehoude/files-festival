@@ -8,6 +8,18 @@ body {
     --fond: #B08FF6;
     --noir: rgba(0, 0, 0, 100%);
 }
+@font-face {
+    font-family: lostar;
+    src: url(lostar.ttf);
+    font-weight: bold;
+}
+/* # section hero */
+
+
+.navbar-brand{
+
+    font-family: lostar;
+}
 
 
 /* # section hero */

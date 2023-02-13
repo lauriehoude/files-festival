@@ -12,6 +12,7 @@ body {
 @font-face {
     font-family: lostar;
     src: url(lostar.ttf);
+    font-weight: bold;
 }
 /* # section hero */
 
