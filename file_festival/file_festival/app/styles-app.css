@@ -16,6 +16,9 @@ body {
     background-color:var(--fond)
 }
 
+.logo{
+    width: 50px;
+}
 
 .h1 {
     background-color: var(--fond);
