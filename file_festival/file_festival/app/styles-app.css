@@ -1,4 +1,6 @@
-
+*{
+    font-family: cushion;
+}
 html,
 body {
     background-color: white;
@@ -11,8 +13,14 @@ body {
 
 @font-face {
     font-family: lostar;
-    src: url(Lostar.ttf);
+    src: url(/file_festival/file_festival/00_assets/font/Lostar.ttf);
 }
+
+@font-face {
+    font-family: cushion;
+    src: url(/file_festival/file_festival/00_assets/font/LTCushion-Light.ttf);
+}
+
 
 
 /* # section hero */
@@ -47,7 +55,6 @@ main{
     background-image: linear-gradient(#fff,var(--fond));
     padding:1rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .navbar-collapse{
@@ -75,3 +82,21 @@ ul{
 .btn:hover{
     background-color: var(--fond);
 }
+
+.file-logo{
+    width: 150px;
+}
+
+.offcanvas-body{
+    background-image: linear-gradient(var(--fond),#fff);
+}
+
+.offcanvas-header{
+    background-color: var(--fond);
+}
+
+
+.navbar-toggler{
+    border:0;
+}
+
