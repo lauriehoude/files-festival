@@ -46,11 +46,18 @@ ul {
 .phone{
     border-radius: 50px;
 }
-.ratio{
+.phone{
     aspect-ratio: 5/9;
+    width: 100%;
+    align-items: flex-end;
+    display: flex;
 }
-
-
+iframe{
+    width: 100%;
+}
+h1{
+    font-size: 80px;
+}
 /*#  Fonctionalitées*/
 
 main {
