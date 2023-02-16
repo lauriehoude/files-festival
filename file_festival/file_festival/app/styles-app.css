@@ -133,3 +133,6 @@ input::placeholder {
 .logo-tim {
   width: 300px;
 }
+form{
+    width: 100%;
+}
