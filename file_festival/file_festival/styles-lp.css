@@ -43,31 +43,40 @@ ul {
     list-style-type: none;
 }
 
-.phone{
+.phone {
     border-radius: 50px;
 }
-.phone{
+
+.phone {
     aspect-ratio: 5/9;
     width: 100%;
- 
     max-width: 300px;
-   
 }
-iframe{
+
+iframe {
     width: 100%;
 }
-h1{
+
+h1 {
     font-size: 75px;
 }
-h2{
+
+h2 {
     font-size: 50px;
 }
+
 
 /*#  Fonctionalitées*/
 
 main {
     margin-bottom: 100px;
     height: 100vh;
+}
+
+.fonct {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
 }
 
 
