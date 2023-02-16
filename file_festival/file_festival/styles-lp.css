@@ -49,15 +49,20 @@ ul {
 .phone{
     aspect-ratio: 5/9;
     width: 100%;
-    align-items: flex-end;
-    display: flex;
+ 
+    max-width: 300px;
+   
 }
 iframe{
     width: 100%;
 }
 h1{
-    font-size: 80px;
+    font-size: 75px;
 }
+h2{
+    font-size: 50px;
+}
+
 /*#  Fonctionalitées*/
 
 main {
