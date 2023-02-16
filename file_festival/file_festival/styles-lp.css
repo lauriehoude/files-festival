@@ -46,6 +46,9 @@ ul {
 .phone{
     border-radius: 50px;
 }
+.ratio{
+    aspect-ratio: 5/9;
+}
 
 
 /*#  Fonctionalitées*/
