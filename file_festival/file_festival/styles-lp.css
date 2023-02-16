@@ -53,7 +53,7 @@ ul {
     max-width: 300px;
 }
 
-zz h1 {
+h1 {
     font-size: 75px;
 }
 
@@ -65,7 +65,7 @@ h2 {
 /*#  Fonctionalitées*/
 
 main {
-    margin-bottom: 100px;
+
     height: 100vh;
 }
 

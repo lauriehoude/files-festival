@@ -18,7 +18,7 @@ body {
 
 @font-face {
     font-family: cushion;
-    src: url(/file_festival/file_festival/00_assets/font/LTCushion-Light.ttf);
+    src: url(/file_festival/00_assets/font/LTCushion-Light.ttf);
 }
 
 
@@ -26,12 +26,13 @@ body {
 /* # section hero */
 
 .navbar{
-  background-color:var(--fond);
+  background-color:#fff;
 }
 
 .navbar-brand{
-
+    color: black;
     font-family: lostar;
+    margin-top: 10px;
 }
 
 .logo{
@@ -46,15 +47,6 @@ body {
 /*#  Fonctionalitées*/
 main{
     height: 100vh;
-}
-
-/* # Footer*/
-
-
-.footer{
-    background-image: linear-gradient(#fff,var(--fond));
-    padding:1rem;
-    margin-top: 1rem;
 }
 
 .navbar-collapse{
@@ -74,13 +66,13 @@ ul{
 }
 
 .boutons{
-    display: flex;
-    justify-content: space-between;
+
     margin-top: 50px;
 }
 
 .btn:hover{
     background-color: var(--fond);
+    border: 0
 }
 
 .file-logo{
@@ -97,6 +89,49 @@ ul{
 
 
 .navbar-toggler{
-    border:0;
+    border:0
 }
 
+input{
+    background-color: var(--fond);
+}
+
+.btn{
+    border-color: var(--fond);
+    color: var(--fond);
+
+}
+
+.navbar-toggler-icon{
+    width: 40px;
+  background-image: url(/file_festival/file_festival/00_assets/icons/menu_burger.png)
+}
+
+.form-control{
+    background-color: var(--fond);
+
+}
+
+input::placeholder{
+    color: #fff !important;
+}
+
+.input-group-text{
+    background-color:#fff;
+}
+
+
+
+/* # Footer*/
+
+
+.footer{
+    background-image: linear-gradient(#fff,var(--fond));
+    padding:1rem;
+    margin-top: 1rem;
+    text-align:center
+}
+
+.logo-tim{
+    width: 300px;
+}
