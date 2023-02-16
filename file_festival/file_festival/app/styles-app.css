@@ -129,7 +129,9 @@ input::placeholder{
     background-image: linear-gradient(#fff,var(--fond));
     padding:1rem;
     margin-top: 1rem;
-    text-align:center
+    text-align:center;
+    padding-top: 75px;
+
 }
 
 .logo-tim{
