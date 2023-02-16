@@ -1,112 +1,112 @@
 * {
-    font-family: cushion;
+  font-family: cushion;
 }
-
 
 
 :root {
-    --fond: #B08FF6;
+    --fond: #b08ff6;
     --noir: rgba(0, 0, 0, 100%);
+    --white: rgb(255, 255, 255);
+    --gris: #d9d9d9;
+    --darkpurple: rgb(119, 91, 179);
+  }
+
+@font-face {
+  font-family: lostar;
+  src: url(/file_festival/file_festival/00_assets/font/Lostar.ttf);
 }
 
 @font-face {
-    font-family: lostar;
-    src: url(/file_festival/file_festival/00_assets/font/Lostar.ttf);
+  font-family: cushion;
+  src: url(/file_festival/file_festival/00_assets/font/LTCushion-Light.ttf);
 }
-
-@font-face {
-    font-family: cushion;
-    src: url(/file_festival/file_festival/00_assets/font/LTCushion-Light.ttf);
-}
-
 
 /* # section hero */
 
 .navbar {
-    background-color: var(--fond);
-    font-family: cushion;
-    font-size: 20px;
+  background-color: var(--fond);
+  font-family: cushion;
 }
 
 .logo {
-    width: 50px;
+  width: 50px;
 }
 
 .h1 {
-    background-color: var(--fond);
-    font-size: 40px;
+  background-color: var(--fond);
+  font-size: 40px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .phone {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
-
 h1 {
-    font-size: 75px;
+  font-size: 75px;
 }
 
 h2 {
-    font-size: 50px;
+  font-size: 50px;
 }
-
 
 /*#  Fonctionalitées*/
 
 main {
-
-    height: 200vh;
+  height: 200vh;
 }
 
-
-
-.container-gradient{
-    background: radial-gradient(var(--fond),#fff,#fff);
-    height: 150vh;
-
+.fonct {
+  width: 100%;
+  height: 50%;
+  background-color: aquamarine;
 }
 
-.top{
-    margin-top: 100px;
+.container-gradient {
+  background: radial-gradient(var(--fond), var(--white), var(--white));
+  height: 150vh;
 }
 
-/* # Footer*/
-
-.footer {
-    background-image: linear-gradient(#fff, var(--fond));
-    text-align: center;
-    
-}
-
-.file-logo {
-    width: 150px;
+.top {
+  margin-top: 100px;
 }
 
 .nav-link {
-    color: #fff
-}
-
-iframe{
+    color: var(--white);
+  }
+  
+  iframe {
     aspect-ratio: 5/9;
     width: 400px;
     height: 700px;
     border-radius: 50px;
     margin-top: 50px;
-    box-shadow: 0 0 50px rgba(0,0,0,1);
-}
-
-.btnTele{
+    box-shadow: 0 0 50px var(--noir);
+  }
+  
+  .btnTele {
     width: 150px;
     height: 50px;
     background-color: var(--fond);
-    color: #fff;
-    border:0
+    color: var(--white);
+    border: 0;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+  }
+  
+  .btnTele:hover {
+    background-color: var(--darkpurple);
+  }
+  
+/* # Footer*/
+
+.footer {
+  background-image: linear-gradient(var(--white), var(--fond));
+  text-align: center;
 }
 
-.btnTele:hover{
-background-color: #775bb3;
+.file-logo {
+  width: 150px;
 }
