@@ -25,9 +25,7 @@ body {
 
 /* # section hero */
 
-a {
-    font-family: lostar;
-}
+
 
 .navbar {
     background-color: var(--fond);
