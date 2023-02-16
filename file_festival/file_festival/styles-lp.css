@@ -53,11 +53,7 @@ ul {
     max-width: 300px;
 }
 
-iframe {
-    width: 100%;
-}
-
-h1 {
+zz h1 {
     font-size: 75px;
 }
 
@@ -75,7 +71,7 @@ main {
 
 .fonct {
     width: 100%;
-    height: 100%;
+    height: 50%;
     background-color: aquamarine;
 }
 
