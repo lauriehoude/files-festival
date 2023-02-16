@@ -29,12 +29,9 @@ a {
     font-family: lostar;
 }
 
-#mainNav {
-    margin-left: 10px;
-}
-
 .navbar {
-    background-color: var(--fond)
+    background-color: var(--fond);
+    font-family: cushion;
 }
 
 .logo {
@@ -67,10 +64,6 @@ main {
 
 .file-logo {
     width: 150px;
-}
-
-.navbar-toggler {
-    border: 0;
 }
 
 .nav-link {
