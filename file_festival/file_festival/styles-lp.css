@@ -2,10 +2,7 @@
     font-family: cushion;
 }
 
-html,
-body {
-    background-color: white;
-}
+
 
 :root {
     --fond: #B08FF6;
@@ -47,11 +44,6 @@ ul {
     border-radius: 50px;
 }
 
-.phone {
-    aspect-ratio: 5/9;
-    width: 100%;
-    max-width: 300px;
-}
 
 h1 {
     font-size: 75px;
@@ -66,7 +58,7 @@ h2 {
 
 main {
 
-    height: 100vh;
+    height: 200vh;
 }
 
 .fonct {
@@ -75,11 +67,22 @@ main {
     background-color: aquamarine;
 }
 
+.container-gradient{
+    background: radial-gradient(var(--fond),#fff,#fff);
+    height: 150vh;
+
+}
+
+.top{
+    margin-top: 100px;
+}
 
 /* # Footer*/
 
 .footer {
     background-image: linear-gradient(#fff, var(--fond));
+    text-align: center;
+    
 }
 
 .file-logo {
@@ -88,4 +91,25 @@ main {
 
 .nav-link {
     color: #fff
+}
+
+iframe{
+    aspect-ratio: 5/9;
+    width: 400px;
+    height: 700px;
+    border-radius: 50px;
+    margin-top: 50px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+
+.btnTele{
+    width: 150px;
+    height: 50px;
+    background-color: var(--fond);
+    color: #fff;
+    border:0
+}
+
+.btnTele:hover{
+background-color: #775bb3;
 }
