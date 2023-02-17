@@ -12,12 +12,12 @@
 
 @font-face {
     font-family: lostar;
-    src: url(/file_festival/00_assets/font/Lostar.ttf);
+    src: url(../file_festival/00_assets/font/Lostar.ttf);
 }
 
 @font-face {
     font-family: cushion;
-    src: url(/file_festival/00_assets/font/LTCushion-Light.ttf);
+    src: url(../file_festival/00_assets/font/LTCushion-Light.ttf);
 }
 
 
@@ -30,6 +30,10 @@
 .navbar {
     background-color: var(--fond);
     font-family: cushion;
+}
+
+.navbar-brand{
+    font-family: lostar;
 }
 
 .logo {
@@ -111,8 +115,14 @@ iframe {
 .footer {
     background-image: linear-gradient(var(--white), var(--fond));
     text-align: center;
+
 }
 
 .file-logo {
     width: 150px;
+}
+
+
+.container-footer{
+    padding-top: 50px;
 }
