@@ -108,7 +108,19 @@ iframe {
 .btnTele:hover {
     background-color: var(--darkpurple);
 }
-
+.card{
+    width: 100%;
+    height: 200px;
+    margin-right: -50px;
+    bottom: 300px;
+    
+    }
+    .card.no1{
+      
+        margin-right: 100px;
+      
+        
+        }
 
 /* # Footer*/
 
