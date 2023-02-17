@@ -1,9 +1,10 @@
 * {
-  font-family: cushion;
+    font-family: cushion;
 }
+
 html,
 body {
-  background-color: var(--white);
+    background-color: var(--white);
 }
 
 :root {
@@ -14,125 +15,129 @@ body {
     --darkpurple: rgb(119, 91, 179);
 }
 
-
 @font-face {
-  font-family: lostar;
-  src: url(/file_festival/file_festival/00_assets/font/Lostar.ttf);
+    font-family: lostar;
+    src: url(/file_festival/00_assets/font/Lostar.ttf);
 }
 
 @font-face {
-  font-family: cushion;
-  src: url(/file_festival/00_assets/font/LTCushion-Light.ttf);
+    font-family: cushion;
+    src: url(/file_festival/00_assets/font/LTCushion-Light.ttf);
 }
+
 
 /* # section hero */
 
 .navbar {
-  background-color: var(--white);
+    background-color: var(--white);
 }
 
 .navbar-brand {
-  color: var(--black);
-  font-family: lostar;
-  margin-top: 10px;
+    color: var(--black);
+    font-family: lostar;
+    margin-top: 10px;
 }
 
 .logo {
-  width: 50px;
+    width: 50px;
 }
 
 .avatar {
-  width: 40px;
+    width: 40px;
 }
 
+
 /*#  Fonctionalitées*/
+
 main {
-  height: 100vh;
+    height: 100vh;
 }
 
 .navbar-collapse {
-  background-color: var(--gris);
-  border-radius: 5px;
-  padding: 10px;
-  max-width: 200px;
+    background-color: var(--gris);
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 200px;
 }
 
 .input-group {
-  margin-top: 150px;
+    margin-top: 150px;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .boutons {
-  margin-top: 50px;
-  overflow:hidden;
+    margin-top: 50px;
+    overflow: hidden;
 }
 
 .btn:hover {
-  background-color: var(--fond);
-  border: 0;
+    background-color: var(--fond);
+    border: 0;
 }
 
 .file-logo {
-  width: 150px;
+    width: 150px;
 }
 
 .offcanvas-body {
-  background-image: linear-gradient(var(--fond), var(--white));
+    background-image: linear-gradient(var(--fond), var(--white));
 }
 
 .offcanvas-header {
-  background-color: var(--fond);
+    background-color: var(--fond);
 }
 
 .navbar-toggler {
-  border: 0;
+    border: 0;
 }
 
 input {
-  background-color: var(--fond);
+    background-color: var(--fond);
 }
 
 .btn {
-  border-color: var(--fond);
-  color: var(--fond);
-  white-space: nowrap;
-  margin-left: 10px;
-  margin-right: 10px;
+    border-color: var(--fond);
+    color: var(--fond);
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar-toggler-icon {
-  width: 40px;
-  background-image: url(/file_festival/file_festival/00_assets/icons/menu_burger.png);
+    width: 40px;
+    background-image: url(/file_festival/file_festival/00_assets/icons/menu_burger.png);
 }
 
 .form-control {
-  background-color: var(--fond);
+    background-color: var(--fond);
 }
 
 input::placeholder {
-  color: var(--white) !important;
+    color: var(--white) !important;
 }
 
 .input-group-text {
-  background-color: var(--white);
+    background-color: var(--white);
 }
+
 
 /* # Footer*/
 
 .footer {
-  background-image: linear-gradient(var(--white), var(--fond));
-  padding: 1rem;
-  margin-top: 1rem;
-  text-align: center;
-  padding-top: 75px;
+    background-image: linear-gradient(var(--white), var(--fond));
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding-top: 75px;
 }
 
 .logo-tim {
-  width: 300px;
+    width: 300px;
 }
-form{
+
+form {
     width: 100%;
 }

@@ -1,7 +1,6 @@
 * {
-  font-family: cushion;
+    font-family: cushion;
 }
-
 
 :root {
     --fond: #b08ff6;
@@ -9,102 +8,111 @@
     --white: rgb(255, 255, 255);
     --gris: #d9d9d9;
     --darkpurple: rgb(119, 91, 179);
-  }
-
-@font-face {
-  font-family: lostar;
-  src: url(/file_festival/file_festival/00_assets/font/Lostar.ttf);
 }
 
 @font-face {
-  font-family: cushion;
-  src: url(/file_festival/file_festival/00_assets/font/LTCushion-Light.ttf);
+    font-family: lostar;
+    src: url(/file_festival/00_assets/font/Lostar.ttf);
 }
+
+@font-face {
+    font-family: cushion;
+    src: url(/file_festival/00_assets/font/LTCushion-Light.ttf);
+}
+
 
 /* # section hero */
 
+.titre {
+    font-family: lostar;
+}
+
 .navbar {
-  background-color: var(--fond);
-  font-family: cushion;
+    background-color: var(--fond);
+    font-family: cushion;
 }
 
 .logo {
-  width: 50px;
+    width: 50px;
 }
 
 .h1 {
-  background-color: var(--fond);
-  font-size: 40px;
+    background-color: var(--fond);
+    font-size: 40px;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
-
-
 h1 {
-  font-size: 75px;
+    font-size: 75px;
 }
 
 h2 {
-  font-size: 50px;
+    font-size: 50px;
 }
+
 
 /*#  Fonctionalitées*/
 
 main {
-  height: 200vh;
+    height: 200vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .phone {
     border-radius: 50px;
     width: 100%;
-  }
+}
 
 .container-gradient {
-  background: radial-gradient(var(--fond), var(--white), var(--white));
-  height: 150vh;
+    background: radial-gradient(var(--fond), var(--white), var(--white));
+    height: 150vh;
 }
 
 .top {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 .nav-link {
     color: var(--white);
-  }
-  
-  iframe {
+}
+
+iframe {
     aspect-ratio: 5/9;
     width: 400px;
     height: 700px;
     border-radius: 50px;
     margin-top: 50px;
     box-shadow: 0 0 50px var(--noir);
-  }
-  
-  .btnTele {
+}
+
+.btnTele {
     width: 150px;
     height: 50px;
     background-color: var(--fond);
     color: var(--white);
     border: 0;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
-  }
-  
-  .btnTele:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btnTele:hover {
     background-color: var(--darkpurple);
-  }
-  
+}
+
+
 /* # Footer*/
 
 .footer {
-  background-image: linear-gradient(var(--white), var(--fond));
-  text-align: center;
+    background-image: linear-gradient(var(--white), var(--fond));
+    text-align: center;
 }
 
 .file-logo {
-  width: 150px;
+    width: 150px;
 }
-
