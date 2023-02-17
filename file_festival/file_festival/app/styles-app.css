@@ -17,12 +17,12 @@ body {
 
 @font-face {
     font-family: lostar;
-    src: url(/file_festival/00_assets/font/Lostar.ttf);
+    src: url(../00_assets/font/Lostar.ttf);
 }
 
 @font-face {
     font-family: cushion;
-    src: url(/file_festival/00_assets/font/LTCushion-Light.ttf);
+    src: url(../00_assets/font/LTCushion-Light.ttf);
 }
 
 
