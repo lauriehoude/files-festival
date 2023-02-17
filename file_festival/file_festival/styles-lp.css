@@ -89,7 +89,7 @@ a {
 
 iframe {
     aspect-ratio: 5/9;
-    width: 400px;
+    width: 350px;
     height: 700px;
     border-radius: 50px;
     margin-top: 50px;
@@ -137,3 +137,4 @@ iframe {
 .container-footer{
     padding-top: 50px;
 }
+
