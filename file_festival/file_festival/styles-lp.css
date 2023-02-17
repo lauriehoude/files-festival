@@ -76,7 +76,7 @@ a {
 
 .container-gradient {
     background: radial-gradient(var(--fond), var(--white), var(--white));
-    height: 150vh;
+   
 }
 
 .top {
@@ -110,8 +110,11 @@ iframe {
 }
 .card {
     width: 100%;
-    
+    height: 100%;
+    margin-left: 80px;
+
 }
+
 
      
 .fonct{
