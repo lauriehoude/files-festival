@@ -88,7 +88,8 @@ a {
 }
 
 .card-img-top.Brandon {
-    background-position: -20% -50%;
+    background-position: center;
+    object-fit: cover;
 }
 
 iframe {
@@ -117,6 +118,8 @@ iframe {
     width: 100%;
     height: 100%;
     margin-left: 80px;
+    bottom: 10px;
+    background-color: #b08ff6;
 }
 
 .fonct {
