@@ -116,8 +116,9 @@ color: var(--fond);
 }
 .card-body{
     overflow: hidden;
-    background-color: var(--fond);
-    box-shadow: 10px 5px 5px var(--fond);
+    background-color: var(--gris);
+    box-shadow: 5px 5px 5px var(--gris);
+    border-radius: 15px;
     
 }
 .container-gradient {
@@ -170,7 +171,7 @@ iframe {
     margin-left: 80px;
     bottom: 10px;
     background-color: var(--fond);
-    border-radius: 55px;
+    
 }
 
 .fonct {
