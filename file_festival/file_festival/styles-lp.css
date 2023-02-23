@@ -120,10 +120,8 @@ a {
 }
 
 .card-body {
-    overflow: hidden;
     background-color: var(--gris);
-    box-shadow: 5px 5px 5px var(--gris);
-    border-radius: 15px;
+    border-width: 0;
 }
 
 .container-gradient {
@@ -146,6 +144,7 @@ a {
 .card-img-top.Brandon {
     background-position: center;
     object-fit: cover;
+    height: 20vh;
 }
 
 iframe {
@@ -175,7 +174,6 @@ iframe {
     height: 100%;
     margin-left: 80px;
     bottom: 10px;
-    background-color: var(--fond);
 }
 
 .fonct {
