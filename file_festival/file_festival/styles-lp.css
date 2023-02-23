@@ -8,6 +8,7 @@
     --white: rgb(255, 255, 255);
     --gris: #d9d9d9;
     --darkpurple: rgb(119, 91, 179);
+    --lightpurple: #c7aefc;
 }
 
 @font-face {
@@ -68,6 +69,61 @@ a {
 .phone {
     border-radius: 50px;
     width: 100%;
+}
+
+.bi-check-square {
+    position: absolute;
+    bottom: 255px;
+    left: 170px;
+    width: 160px;
+    height: 30px;
+}
+
+.bi-geo {
+    position: absolute;
+    bottom: 255px;
+    left: 170px;
+    width: 160px;
+    height: 30px;
+}
+
+.bi-ticket-perforated {
+    position: absolute;
+    bottom: 255px;
+    left: 180px;
+    width: 160px;
+    height: 30px;
+}
+
+.bi-journals {
+    position: absolute;
+    bottom: 300px;
+    left: 180px;
+    width: 160px;
+    height: 30px;
+}
+
+.bi-brush {
+    position: absolute;
+    bottom: 300px;
+    left: 180px;
+    width: 160px;
+    height: 30px;
+}
+
+.bi-calendar-heart {
+    position: absolute;
+    bottom: 300px;
+    left: 185px;
+    width: 160px;
+    height: 30px;
+}
+
+.card-body {
+    overflow: hidden;
+    background-color: var(--gris);
+    box-shadow: 5px 5px 5px var(--gris);
+    border-radius: 15px;
 }
 
 .container-gradient {
