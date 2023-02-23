@@ -119,6 +119,7 @@ iframe {
     height: 100%;
     margin-left: 80px;
     bottom: 10px;
+    background-color: var(--fond);
 }
 
 .fonct {
