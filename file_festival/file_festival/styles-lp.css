@@ -128,6 +128,7 @@ a {
 .card-body {
     background-color: var(--gris);
     border-width: 0;
+    
 }
 
 .container-gradient {
@@ -143,15 +144,11 @@ a {
 }
 
 .card-img-top {
-    height: 20vh;
+    height: 32vh;
     object-fit: cover;
 }
 
-.card-img-top.Brandon {
-    background-position: center;
-    object-fit: cover;
-    height: 20vh;
-}
+
 
 iframe {
     aspect-ratio: 5/9;
