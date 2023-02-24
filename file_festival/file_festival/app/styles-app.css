@@ -60,7 +60,7 @@ main {
 }
 
 .input-group {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 ul {
@@ -68,8 +68,9 @@ ul {
 }
 
 .boutons {
-  margin-top: 50px;
+  margin-top: 40px;
   overflow: hidden;
+  padding-left: 0;
 }
 
 .btn:hover {
@@ -110,6 +111,7 @@ input {
   white-space: nowrap;
   width: 110px;
   margin: 0 10px;
+  margin-left: 0;
 }
 
 .navbar-toggler-icon {
@@ -129,20 +131,6 @@ input::placeholder {
   background-color: var(--white);
 }
 
-/* # Footer*/
-
-.footer {
-  background-image: linear-gradient(var(--white), var(--fond));
-  padding: 1rem;
-  margin-top: 1rem;
-  text-align: center;
-  padding-top: 75px;
-}
-
-.logo-tim {
-  width: 300px;
-}
-
 form {
   width: 100%;
 }
@@ -157,22 +145,13 @@ a {
 }
 
 .card {
- 
-  margin: 0 10px;
-  max-width: 200px;
   background-color: var(--noir);
   transition: background-color 0.5s;
   border:0;
+
 }
 
 
-.card-text {
-  margin-top: 10px;
-}
-
-section.row {
-  padding: 0 50px;
-}
 .card-img-top {
   height: 20vh;
   object-fit: cover;
@@ -191,7 +170,7 @@ section.row {
 
 .card-title{
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .card:hover{
@@ -208,3 +187,29 @@ section.row {
     border-radius: 50%;
     object-fit: cover;
 }
+
+
+
+.date{
+  font-size: 12px;
+}
+
+.info {
+  font-size: 12px;;
+}
+
+
+/* # Footer*/
+
+.footer {
+  background-image: linear-gradient(var(--white), var(--fond));
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.logo-tim {
+  width: 300px;
+}
+
