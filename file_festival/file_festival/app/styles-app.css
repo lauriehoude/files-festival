@@ -49,7 +49,7 @@ body {
 /*#  Fonctionalitées*/
 
 main {
-  height: 100vh;
+  height: 200vh;
 }
 
 .navbar-collapse {
@@ -152,7 +152,7 @@ a {
 }
 
 
-.card-img-top {
+.top-image {
   height: 20vh;
   object-fit: cover;
 }
@@ -198,8 +198,27 @@ a {
   font-size: 12px;
 }
 
-.card-body{
+.top{
   padding:8px;
+}
+
+.titledeux{
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+
+.card-img-top.bottomimage{
+  height: 20vh;
+  object-fit: cover;
+}
+
+.cardtwo{
+  border: 1px solid var(--noir);
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--noir);
+  padding:10px;
 }
 
 /* # Footer*/
