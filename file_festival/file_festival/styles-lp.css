@@ -127,6 +127,7 @@ a {
 .card-body {
     background-color: var(--gris);
     border-width: 0;
+    padding: 20px;
 }
 
 .container-gradient {
