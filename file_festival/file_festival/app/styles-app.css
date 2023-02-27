@@ -221,7 +221,8 @@ a {
   margin-bottom: 20px;
 }
 .card-img-top.bottomimage{
-  height: 35vh;
+  height: 20vh;
+  object-fit: cover;
 }
 
 /* # Footer*/
