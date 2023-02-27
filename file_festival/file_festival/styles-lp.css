@@ -125,16 +125,9 @@ a {
 }
 
 .card-body {
-    background-color: var(--fond);
+    background-color: var(--gris);
     border-width: 0;
     padding: 20px;
-}
-
-.card-body-photo {
-    background-color: var(--noir);
-    border-width: 0;
-    padding: 20px;
-    color: var(--white);
 }
 
 .container-gradient {
@@ -182,14 +175,8 @@ iframe {
 }
 
 .card-body:hover {
-    background-color: var(--lightpurple);
+    background-color: var(--fond);
     padding: 10px;
-}
-
-.card-body-photo:hover {
-    background-color: var(--lightpurple);
-    padding: 10px;
-    color: var(--noir);
 }
 
 
