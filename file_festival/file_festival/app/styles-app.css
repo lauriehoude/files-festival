@@ -208,10 +208,6 @@ a {
 }
 
 
-.card-img-top.bottomimage{
-  height: 20vh;
-  object-fit: cover;
-}
 
 .cardtwo{
   border: 1px solid var(--noir);
