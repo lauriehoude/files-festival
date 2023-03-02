@@ -172,6 +172,7 @@ iframe {
 .fonct {
     font-family: cushion;
     font-size: 26px;
+    margin-top: 90px;
 }
 
 .card-body:hover {
@@ -184,6 +185,10 @@ iframe {
 
 .fq {
     margin-bottom: 80px;
+}
+
+.Foire {
+    margin-top: 80px;
 }
 
 
