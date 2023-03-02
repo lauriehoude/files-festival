@@ -183,10 +183,6 @@ iframe {
 
 /* Foire aux question*/
 
-.fq {
-    margin-bottom: 80px;
-}
-
 .Foire {
     margin-top: 80px;
 }
@@ -204,7 +200,7 @@ iframe {
 
 #infolettre {
     background-image: url("/file_festival/00_assets/artworks/art.jpg");
-    width: 100px;
+    width: 300px;
     height: 100px;
 }
 
