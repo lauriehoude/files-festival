@@ -191,17 +191,17 @@ iframe {
 /* Infolettre*/
 
 .lettre {
-    width: 100%;
-    height: 100%;
-    background-color: var(--gris);
     border-radius: 15px 15px 15px 15px;
     margin-top: 50px;
 }
 
 #infolettre {
     background-image: url("/file_festival/00_assets/artworks/art.jpg");
-    width: 300px;
-    height: 100px;
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    margin-top: 40px;
 }
 
 
