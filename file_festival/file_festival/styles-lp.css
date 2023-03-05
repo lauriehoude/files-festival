@@ -235,12 +235,15 @@ iframe {
 }
 
 #infolettre {
-    background-image: url("/file_festival/00_assets/artworks/art.jpg");
+    background-image: url("../file_festival/00_assets/artworks/art.jpg");
     width: 100%;
     height: 60vh;
     background-size: cover;
     position: relative;
     margin-top: 40px;
+    background-blend-mode: screen;
+    background-color: #b08ff6;
+    box-shadow: inset  0 20px 20px 50px rgb(255, 255, 255,1);
 }
 
 
