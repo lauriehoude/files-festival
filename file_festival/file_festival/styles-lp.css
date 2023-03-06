@@ -80,13 +80,9 @@ a {
 }
 
 i {
-   font-size: 20px;
-  
+   font-size: 35px;
 }
 
-i:hover{
-    color: var(--white);
-}
 
 .card-body {
     border-width: 0;
@@ -181,7 +177,10 @@ iframe {
 .lol{
 background-color: rgba(176, 143, 246, 0.7);
 
-
+}
+.bi-envelope{
+    display: block;
+    bottom: 20px;
 }
 
 
