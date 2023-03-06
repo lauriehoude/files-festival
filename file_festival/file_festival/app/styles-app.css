@@ -52,12 +52,7 @@ main {
   height: 300vh;
 }
 
-.navbar-collapse {
-  background-color: var(--gris);
-  border-radius: 5px;
-  padding: 10px;
-  max-width: 200px;
-}
+
 
 .input-group {
   margin-top: 100px;
@@ -106,8 +101,7 @@ input {
 }
 
 .btn {
-  border-color: var(--fond);
-  color: var(--fond);
+
   white-space: nowrap;
   width: 110px;
   margin: 0 10px;
@@ -119,9 +113,6 @@ input {
   background-image: url(/file_festival/file_festival/00_assets/icons/menu_burger.png);
 }
 
-.form-control {
-  background-color: var(--fond);
-}
 
 input::placeholder {
   color: var(--white) !important;
