@@ -49,7 +49,7 @@ body {
 /*#  Fonctionalitées*/
 
 main {
-  height: 300vh;
+  height: 250vh;
 }
 
 
@@ -211,6 +211,9 @@ a {
   padding:10px;
   margin-bottom: 20px;
 }
+.cardtwo:hover{
+  background-color: var(--fond);
+}
 .card-img-top.bottomimage{
   height: 20vh;
   object-fit: cover;
@@ -233,7 +236,44 @@ a {
 
 /*oeuvres*/
 
+
+
 .navbaroeuvre{
   background-color: #d9d9d900;
+}
+
+.imgoeuvreartwork{
+  
+  height: 33vh;
+  object-fit:cover;
+
+}
+
+.titleartwork{
+  padding-top: 10px;
+  border-radius: 15px;
+  top:-20px;
+  position: relative;
+  background-color: var(--white);
+  box-shadow: 0 0 20px 5px var(--noir);
+  height: 100vh;
+}
+
+.containerartwork{
+  width: 100%;
+}
+
+.cardartwork{
+  border: 1px solid var(--noir);
+  border-radius: 10px;
+  background-color: var(--noir);
+  color: var(--white);
+  padding:10px;
+  margin-bottom: 20px;
+}
+
+.cardartwork:hover{
+  color: var(--noir);
+  background-color: var(--gris);
 }
 
