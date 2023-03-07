@@ -79,19 +79,6 @@ a {
     width: 100%;
 }
 
-i {
-   font-size: 35px;
-}
-
-
-.card-body {
-    border-width: 0;
-    padding: 10px;
-}
-
-.card-body:hover {
-    padding: 10px;
-}
 
 .container-gradient {
     background: radial-gradient(var(--fond), var(--white), var(--white));
@@ -142,12 +129,21 @@ iframe {
     font-size: 26px;
     margin-top: 90px;
 }
-
-.card-body:hover {
-    background-color: var(--fond);
-    padding: 10px;
-}
-
+/* témoignage*/
+i {
+    font-size: 35px;
+ }
+ 
+ 
+ .card-body {
+     border-width: 0;
+     padding: 10px;
+ }
+ 
+ .card-body:hover {
+     padding: 10px;
+ }
+ 
 
 /* Foire aux question*/
 
@@ -179,7 +175,7 @@ background-color: rgba(176, 143, 246, 0.7);
 
 }
 .bi-envelope{
-    display: block;
+
     bottom: 20px;
 }
 
