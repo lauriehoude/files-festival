@@ -88,7 +88,12 @@ a {
     margin-top: 100px;
 }
 
-
+.nav-link {
+    color: var(--white);
+}
+.navbar:hover{
+    color: var(--white);
+}
 
 .card-img-top {
     height: 32vh;
@@ -112,7 +117,7 @@ iframe {
 .btnTele {
     width: 150px;
     height: 50px;
-    background-color: var(--fond);
+  
     color: var(--white);
     border: 0;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
