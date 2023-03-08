@@ -250,6 +250,7 @@ a {
 }
 
 .titleartwork{
+  color:#d9d9d9;
   padding-top: 10px;
   border-radius: 15px;
   top:-20px;
@@ -266,14 +267,29 @@ a {
 .cardartwork{
   border: 1px solid var(--noir);
   border-radius: 10px;
-  background-color: var(--noir);
-  color: var(--white);
+  color: var(--noir);
   padding:10px;
   margin-bottom: 20px;
 }
 
-.cardartwork:hover{
-  color: var(--noir);
-  background-color: var(--gris);
+.footerartwork{
+  background-image: linear-gradient(var(--noir), var(--fond));
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding-top: 75px;
+  color:#d9d9d9
 }
 
+.rounded{
+  margin: 5px 0;
+}
+
+.accordion{
+  margin-top: 20px;
+  text-decoration-color: var(--black);
+}
+
+.mainartwork{
+  height: 170vh;
+}
