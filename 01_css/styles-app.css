@@ -110,7 +110,7 @@ input {
 
 .navbar-toggler-icon {
   width: 40px;
-  background-image: url(/file_festival/file_festival/00_assets/icons/menu_burger.png);
+  background-image: url(../00_assets/icons/menu_burger.png);
 }
 
 
