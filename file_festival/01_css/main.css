@@ -1,0 +1,40 @@
+
+html,
+body {
+    background-color: var(--white);
+}
+:root {
+    --fond: #b08ff6;
+    --noir: rgba(0, 0, 0, 100%);
+    --white: rgb(255, 255, 255);
+    --gris: #d9d9d9;
+    --darkpurple: rgb(119, 91, 179);
+  }
+
+
+@font-face {
+  font-family: lostar;
+  src: url(/file_festival/file_festival/00_assets/font/Lostar.ttf);
+}
+
+@font-face {
+  font-family: cushion;
+  src: url(/file_festival/00_assets/font/LTCushion-Light.ttf);
+}
+
+
+/* # section hero */
+
+
+
+.h1 {
+    background-color: var(--fond);
+    font-size: 40px;
+    font-family: lostar;
+}
+
+
+/*#  Fonctionalitées*/
+
+
+/* # Footer*/

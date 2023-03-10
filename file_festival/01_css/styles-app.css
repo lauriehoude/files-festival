@@ -1,0 +1,297 @@
+* {
+  font-family: cushion;
+}
+
+html,
+body {
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+
+:root {
+  --fond: #b08ff6;
+  --noir: rgba(0, 0, 0, 100%);
+  --white: rgb(255, 255, 255);
+  --gris: #d9d9d9;
+  --darkpurple: rgb(119, 91, 179);
+}
+
+@font-face {
+  font-family: lostar;
+  src: url(../00_assets/font/Lostar.ttf);
+}
+
+@font-face {
+  font-family: cushion;
+  src: url(../00_assets/font/LTCushion-Light.ttf);
+}
+
+/* # section hero test */
+
+.navbar {
+  background-color: var(--white);
+}
+
+.navbar-brand {
+  color: var(--black);
+  font-family: lostar;
+  margin-top: 10px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.avatar {
+  width: 40px;
+}
+
+/*#  Fonctionalitées*/
+
+main {
+  height: 250vh;
+}
+
+.mainindex{
+  margin-top:100px;
+}
+
+.input-group {
+  margin-top: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.boutons {
+  margin-top: 40px;
+  overflow: hidden;
+  padding-left: 0;
+}
+
+.btn:hover {
+  background-color: var(--fond);
+  border: 0;
+}
+
+.file-logo {
+  width: 50px;
+}
+
+.nav-link {
+  color: var(--black);
+}
+.offcanvas-title {
+  font-family: lostar;
+}
+
+.offcanvas-body {
+  background-image: linear-gradient(var(--fond), var(--white));
+}
+
+.offcanvas-header {
+  background-color: var(--fond);
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+input {
+  background-color: var(--fond);
+}
+
+.btn {
+
+  white-space: nowrap;
+  width: 110px;
+  margin: 0 10px;
+  margin-left: 0;
+}
+
+.navbar-toggler-icon {
+  width: 40px;
+  background-image: url(/file_festival/file_festival/00_assets/icons/menu_burger.png);
+}
+
+
+input::placeholder {
+  color: var(--white) !important;
+}
+
+.input-group-text {
+  background-color: var(--white);
+}
+
+form {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: var(--noir);
+  transition: background-color 0.5s;
+  border:0;
+
+}
+
+
+.top-image {
+  height: 20vh;
+  object-fit: cover;
+}
+
+.joy {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.bi-arrow-right-square-fill {
+  color: var(--fond);
+}
+
+.card-title{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card:hover{
+    background-color: var(--fond);
+    color: var(--white);
+}
+
+#lescartes{
+    width: 140%;
+}
+
+.dyan{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.card-img-top.topimage{
+  object-fit: cover;
+  height: 20vh;
+}
+.date{
+  font-size: 12px;
+}
+
+.info {
+  font-size: 12px;
+}
+
+.top{
+  padding:8px;
+}
+
+.titledeux{
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+
+.cardtwo{
+  border: 1px solid var(--noir);
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--noir);
+  padding:10px;
+  margin-bottom: 20px;
+}
+.cardtwo:hover{
+  background-color: var(--fond);
+}
+.card-img-top.bottomimage{
+  height: 20vh;
+  object-fit: cover;
+}
+
+/* # Footer*/
+
+.footer {
+  background-image: linear-gradient(var(--white), var(--fond));
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.logo-tim {
+  width: 300px;
+}
+
+
+/*oeuvres*/
+
+
+
+.navbaroeuvre{
+  background-color: #d9d9d900;
+}
+
+.imgoeuvreartwork{
+  
+  height: 33vh;
+  object-fit:cover;
+
+}
+
+.titleartwork{
+  color:#d9d9d9;
+  padding-top: 10px;
+  border-radius: 15px;
+  top:-20px;
+  position: relative;
+  background-color: var(--white);
+  box-shadow: 0 0 20px 5px var(--noir);
+  height: 100vh;
+}
+
+.containerartwork{
+  width: 100%;
+}
+
+.cardartwork{
+  border: 1px solid var(--noir);
+  border-radius: 10px;
+  color: var(--noir);
+  padding:10px;
+  margin-bottom: 20px;
+}
+
+.footerartwork{
+  background-image: linear-gradient(var(--noir), var(--fond));
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding-top: 75px;
+  color:#d9d9d9
+}
+
+.rounded{
+  margin: 5px 0;
+}
+
+.accordion{
+  margin-top: 20px;
+  text-decoration-color: var(--black);
+}
+
+.mainartwork{
+  height: 170vh;
+}
