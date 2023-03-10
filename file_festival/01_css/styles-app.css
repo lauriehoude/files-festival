@@ -48,9 +48,7 @@ body {
 
 /*#  Fonctionalitées*/
 
-main {
-  height: 250vh;
-}
+
 
 .mainindex{
   margin-top:100px;
@@ -292,6 +290,3 @@ a {
   text-decoration-color: var(--black);
 }
 
-.mainartwork{
-  height: 170vh;
-}
