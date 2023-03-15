@@ -138,6 +138,19 @@ i {
     height: 18vh;
 }
 
+.card-bodys {
+    border-width: 0;
+    height: 32vh;
+}
+
+.card-n {
+    height: 28vh;
+}
+
+.section-features {
+    padding-bottom: 40px;
+}
+
 
 /* Foire aux question*/
 
