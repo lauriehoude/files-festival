@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/custom_bootstrap.css">
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../01_css/styles-lp.css">
 
 
@@ -23,8 +22,9 @@
     <main>
         <div clas="container">
             <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-primary  ">
+                <i class="bi bi-boxes "></i>
 
-                <a class="navbar-brand" href="#"> <img class="logo" src="../00_assets/icons/image.png"> file festival
+                <a class="navbar-brand  " href="#"> <img class="logo " src="../00_assets/icons/image.png"> file festival
                 </a>
                 <!--Hamburger-->
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
@@ -44,11 +44,20 @@
                         </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#scrollyspyHeading3" class="nav-link">En savoir plus
+                            <a href="#scrollyspyHeading3" class="nav-link">Foire aux questions
 
                         </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="#scrollyspyHeading4" class="nav-link">témoignages
 
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#scrollyspyHeading5" class="nav-link">Swiper
+
+                        </a>
+                        </li>
                     </ul>
 
                 </div>
@@ -150,7 +159,6 @@
                     <!--card-5-->
                     <div class="col-sm-12 col-md-6 col-lg-4 ">
                         <div class="card-n ">
-
                             <div class="card-body ">
                                 <h5 class="card-title ">Repérage d'amis sur la carte interactive</h5>
                                 <p class="card-text d-flex justify-content-between ">Partagez votre position avec vos amis qui participent au festival, demandez-leur la même chose et vous pourrez facilement vous retrouver pour apprécier l'art, tous ensemble, selon vos préférences communes. </p>
@@ -175,10 +183,29 @@
             </div>
         </div>
         </section>
+        <!-- Slider main container -->
+        <div class="swiper" id="scrollyspyHeading5">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
         <!--Fonctionalité-->
 
-        <section class="section-features bg-secondary pt-8">
+        <section class="section-features bg-secondary">
             <section class="section-testimonials">
                 <div class="container ">
                     <div class="row ">
@@ -194,7 +221,7 @@
                     </div>
                 </div>
             </section>
-            <div class="container ">
+            <div class="container " id="scrollyspyHeading4">
 
                 <div class="row d-flex justify-content-center ">
                     <!--card-1-->
@@ -209,7 +236,6 @@
                             <h5 class="card-title p-2 ">Fermière</h5>
                             <p class="card-text d-flex justify-content-between p-2 "> C'est définitivement une de mes appli préférée.</p>
                             <i class=" bi bi-chat-quote-fill text-end pr-90"></i>
-
                         </div>
 
                     </div>
@@ -217,7 +243,7 @@
                     <div class=" col-sm-12 col-md-6 col-lg-4 ">
 
                         <img src="../00_assets/artists/cloe.jpg " class="card-img-top " alt="cloe ">
-                        
+
                         <div class="card-body bg-light  ">
                             <h4 class="card-title ">Cloe Harley</h4>
                             <h5 class="card-title ">Montréal</h5>
@@ -231,7 +257,7 @@
                     <!--card-3-->
                     <div class=" col-sm-12 col-md-6 col-lg-4 ">
                         <img src="../00_assets/artists/gab.jpg " class="card-img-top " alt="gab ">
-                      
+
                         <div class="card-body bg-light  ">
                             <h4 class="card-title ">Alain térieur</h4>
                             <h5 class="card-title ">Montréal</h5>
@@ -244,9 +270,9 @@
                     </div>
                     <!--card-4-->
                     <div class=" col-sm-2 col-md-6 col-lg-4 ">
-                        <img src="../00_assets/artists/luc.jpg " class="card-img-top " alt="Luc ">
-                      
-                          <div class="card-body bg-light  ">
+                        <img src="../00_assets/artists/simon.jpg " class="card-img-top " alt="Luc ">
+
+                        <div class="card-body bg-light  ">
                             <h4 class="card-title ">Jeremy Tourvielle</h4>
                             <h5 class="card-title ">Laval</h5>
                             <h6 class="card-title ">Testeur de jeux vidéo</h6>
@@ -275,7 +301,7 @@
 
                         <img src="../00_assets/artists/lea.jpg " class="card-img-top " alt="Thoka ">
                         <div class="card-body bg-light text-blanc ">
-                      
+
 
                             <h4 class="card-title ">Gwendoline Maer</h4>
                             <h5 class="card-title ">Montréal</h5>
@@ -289,7 +315,7 @@
             </div>
             </div>
         </section>
-        
+
 
         <section>
             <div class="container " id='scrollyspyHeading3'>
@@ -448,6 +474,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="/02_js/script.js"></script>
 </body>
 

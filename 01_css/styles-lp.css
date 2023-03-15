@@ -24,6 +24,10 @@
 
 /* # section hero */
 
+.bi-boxes {
+    width: 20px;
+}
+
 .titre {
     font-family: lostar;
 }
