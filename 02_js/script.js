@@ -1,1 +1,1 @@
-//const mySwiperOne = new Swiper(swiperContainer, parameters);
+const mySwiperlp = new Swiper(swiperContainer, parameters);
