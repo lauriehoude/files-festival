@@ -176,6 +176,10 @@ i {
     background-blend-mode: screen;
     background-color: #b08ff6;
     box-shadow: inset 0 20px 20px 50px rgb(255, 255, 255, 1);
+    
+}
+.info{
+
 }
 
 .lol {
@@ -186,6 +190,14 @@ i {
     bottom: 20px;
 }
 
+.mb-15{
+    margin-bottom:15px !important
+}
+
+.section-features{
+    box-shadow: inset 0 20px 20px 0 rgb(255, 255, 255, 1);
+    background-image: linear-gradient(var(--gris),var(--gris),var(--gris), var(--white));
+}
 
 /* # Footer*/
 
