@@ -132,7 +132,7 @@ a {
 }
 
 .title {
-  text-decoration: underline;
+ 
 }
 
 .card {
@@ -199,7 +199,7 @@ a {
 
 .titledeux{
   margin-top: 25px;
-  text-decoration: underline;
+
 }
 
 
@@ -230,7 +230,11 @@ a {
 }
 
 .logo-tim {
-  width: 300px;
+  max-width: 200px;
+}
+
+.mt-10{
+  margin-top: 10px;
 }
 
 
@@ -257,7 +261,7 @@ a {
   position: relative;
   background-color: var(--white);
   box-shadow: 0 0 20px 5px var(--noir);
-  height: 100vh;
+
 }
 
 .containerartwork{
