@@ -1,4 +1,3 @@
-const mySwiperlp = new Swiper(swiperContainer, parameters);
 
 
 const swiper = new Swiper('.swiperarts', {
