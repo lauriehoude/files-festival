@@ -127,8 +127,8 @@ iframe {
 }
 /*#  Fonctionalitées*/
 .swiper{
-    width:75vh;
-    height:300px;
+    width:100vh;
+    height:400px;
     text-align:center;
     border:3px solid blue;   
 }
