@@ -2,7 +2,7 @@ const swiperlp = new Swiper(".swiper-screenshots", {
     direction: "horizontal",
     loop: true,
     centeredSlides: true,
-    centeredSlidesBounds: true,
+    slidesPerView: 1,
     spaceBetween: 1,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -12,29 +12,29 @@ const swiperlp = new Swiper(".swiper-screenshots", {
     breakpoints: {
         1200: {
             slidesPerView: 3,
-            spaceBetween: 85,
+            spaceBetween: 20,
         },
     },
 });
-alert("asa")
 
 
-const swiperapp = new lwiper(".swiper-filters", {
-    direction: "horizontal",
-    freeMode: {
-        enable: true,
-    },
+
+const swiperapp = new Swiper(".swiper-filters", {
+
+    slidesPerView: 2,
+    spaceBetween: 0,
+    grabCursor: true,
+
+
 });
 
 
-const swiperappartworks = new lwiper(".swiper-featured-artworks", {
+const swiperappartworks = new Swiper(".swiper-featured-artworks", {
     direction: "horizontal",
     grabCursor: true,
-    freeMode: {
-        enable: true,
-    },
-    slidesPerView: 2.1,
+    slidesPerView: 3,
     spaceBetween: 10,
+    centeredSlides: true,
 
 
 });
