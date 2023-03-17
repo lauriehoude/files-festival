@@ -126,21 +126,36 @@ iframe {
     margin-top: 90px;
 }
 /*#  Fonctionalitées*/
-.swiper{
-    width:900px;
-    height:400px;
-    text-align:center;
+.sliper-slide-prev{
+    opacity: 50%;
+    width: 0;
+}
+.swiper-slide{
+width:auto;
+    display: flex;
+   position: relative;
+   justify-content: center;
     
 }
 .imgswiper{
     object-fit:cover;
-    width:100%;
+    max-width: 450px;
     height:300px;
     border-radius: 20px;
     border:3px solid black;
  
 }
-
+.swiper-button-prev{
+    color: #000000;
+    margin-right: 10px;
+}
+.swiper-button-next{
+    color: #000000;
+}
+.swiper-slide-next{
+    opacity: 50%;
+    width: 0;
+}
 /* témoignage*/
 
 i {
