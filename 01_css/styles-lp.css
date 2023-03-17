@@ -155,7 +155,11 @@ width:auto;
 .swiper-slide-next{
     opacity: 50%;
     width: 0;
+    z-index: 2;
+    position: relative;
+    left:50px;
 }
+
 /* témoignage*/
 
 i {

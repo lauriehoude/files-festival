@@ -1,12 +1,19 @@
 const mySwiperlp = new Swiper(swiperContainer, parameters);
 
+const swiper = new Swiper('.swiperarts', {
+    
+    direction: "horizontal",
+    loop: true,
+    grabCursor: true,
+effect:'slide',
+width: 100
+});
 
 
 
 
 
 const swiperlp = new Swiper(".swiper-screenshots", {
-
     direction: "horizontal",
     loop: true,
     centeredSlides: true,
@@ -19,7 +26,7 @@ const swiperlp = new Swiper(".swiper-screenshots", {
     breakpoints: {
         1200: {
             slidesPerView: 3,
-            spaceBetween: 20,
+            spaceBetween: 85,
         },
     },
 });
