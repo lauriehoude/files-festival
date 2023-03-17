@@ -1,27 +1,19 @@
-const swiper = new Swiper('.swiper', {
-    direction: 'horizontal',
-    grabCursor: true,
+const mySwiperlp = new Swiper(swiperContainer, parameters);
+
+const swiperlp = new Swiper(".swiperarts", {
+
+    direction: "horizontal",
     loop: true,
-    
-      slidesPerView: 1,
-    spaceBetween: 10,
-    // Responsive breakpoints
-    breakpoints: {
-      // when window width is >= 320px
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 25
-      },
-      // when window width is >= 480px
-      992: {
-        slidesPerView: 3,
-        spaceBetween: 30
-      },
-  
-    }
-  
-  
-  });
+    centeredSlides: true,
    
-  
-  
+    slidesPerView: 1,
+    spaceBetween: 20,
+    breakpoints: {
+        400: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+    },
+});
+
+alert("asa")
