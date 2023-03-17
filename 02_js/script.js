@@ -1,15 +1,5 @@
 const mySwiperlp = new Swiper(swiperContainer, parameters);
 
-const swiper = new Swiper('.swiperarts', {
-    
-    direction: "horizontal",
-    loop: true,
-    grabCursor: true,
-effect:'slide',
-width: 100
-});
-
-
 
 
 
