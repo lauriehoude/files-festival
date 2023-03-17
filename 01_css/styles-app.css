@@ -64,7 +64,7 @@ ul {
 
 .boutons {
   margin-top: 40px;
-  overflow: hidden;
+
   padding-left: 0;
 }
 
@@ -294,4 +294,8 @@ a {
 .accordion {
   margin-top: 20px;
 
+}
+
+.bi-balloon-heart:active{
+  fill: red;
 }
