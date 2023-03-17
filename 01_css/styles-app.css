@@ -50,8 +50,8 @@ body {
 
 
 
-.mainindex{
-  margin-top:100px;
+.mainindex {
+  margin-top: 100px;
 }
 
 .input-group {
@@ -64,7 +64,7 @@ ul {
 
 .boutons {
   margin-top: 40px;
-  overflow: hidden;
+
   padding-left: 0;
 }
 
@@ -80,6 +80,7 @@ ul {
 .nav-link {
   color: var(--black);
 }
+
 .offcanvas-title {
   font-family: lostar;
 }
@@ -103,7 +104,7 @@ input {
 .btn {
 
   white-space: nowrap;
-  width: 110px;
+
   margin: 0 10px;
   margin-left: 0;
 }
@@ -131,14 +132,12 @@ a {
   color: var(--white);
 }
 
-.title {
-  text-decoration: underline;
-}
+
 
 .card {
   background-color: var(--noir);
   transition: background-color 0.5s;
-  border:0;
+  border: 0;
 
 }
 
@@ -159,33 +158,34 @@ a {
   color: var(--fond);
 }
 
-.card-title{
-    margin-top: 10px;
-    font-size: 20px;
+.card-title {
+  margin-top: 10px;
+  font-size: 20px;
 }
 
-.card:hover{
-    background-color: var(--fond);
-    color: var(--white);
+.card:hover {
+  background-color: var(--fond);
+  color: var(--white);
 }
 
-#lescartes{
-    width: 140%;
+#lescartes {
+  width: 140%;
 }
 
-.dyan{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    object-fit: cover;
+.dyan {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 
-.card-img-top.topimage{
+.card-img-top.topimage {
   object-fit: cover;
   height: 20vh;
 }
-.date{
+
+.date {
   font-size: 12px;
 }
 
@@ -193,30 +193,37 @@ a {
   font-size: 12px;
 }
 
-.top{
-  padding:8px;
+.top {
+  padding: 8px;
 }
 
-.titledeux{
+.titledeux {
   margin-top: 25px;
-  text-decoration: underline;
+
 }
 
 
-.cardtwo{
+.cardtwo {
   border: 1px solid var(--noir);
   border-radius: 10px;
   background-color: var(--white);
   color: var(--noir);
-  padding:10px;
+  padding: 10px;
   margin-bottom: 20px;
 }
-.cardtwo:hover{
+
+.cardtwo:hover {
   background-color: var(--fond);
 }
-.card-img-top.bottomimage{
+
+.card-img-top.bottomimage {
   height: 20vh;
   object-fit: cover;
+}
+
+.swiper-slide{
+  max-width: 200px;
+  min-width: 200px;
 }
 
 /* # Footer*/
@@ -230,7 +237,11 @@ a {
 }
 
 .logo-tim {
-  width: 300px;
+  max-width: 200px;
+}
+
+.mt-10 {
+  margin-top: 10px;
 }
 
 
@@ -238,55 +249,58 @@ a {
 
 
 
-.navbaroeuvre{
+.navbaroeuvre {
   background-color: #d9d9d900;
 }
 
-.imgoeuvreartwork{
-  
+.imgoeuvreartwork {
+
   height: 33vh;
-  object-fit:cover;
+  object-fit: cover;
 
 }
 
-.titleartwork{
-  color:#d9d9d9;
+.titleartwork {
+  color: #d9d9d9;
   padding-top: 10px;
   border-radius: 15px;
-  top:-20px;
+  top: -20px;
   position: relative;
   background-color: var(--white);
   box-shadow: 0 0 20px 5px var(--noir);
-  height: 100vh;
+
 }
 
-.containerartwork{
+.containerartwork {
   width: 100%;
 }
 
-.cardartwork{
+.cardartwork {
   border: 1px solid var(--noir);
   border-radius: 10px;
   color: var(--noir);
-  padding:10px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 
-.footerartwork{
+.footerartwork {
   background-image: linear-gradient(var(--noir), var(--fond));
   padding: 1rem;
   margin-top: 1rem;
   text-align: center;
   padding-top: 75px;
-  color:#d9d9d9
+  color: #d9d9d9
 }
 
-.rounded{
+.rounded {
   margin: 5px 0;
 }
 
-.accordion{
+.accordion {
   margin-top: 20px;
-  text-decoration-color: var(--black);
+
 }
 
+.bi-balloon-heart:active{
+  fill: red;
+}
