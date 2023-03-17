@@ -1,4 +1,4 @@
-const swiper = new Swiper(".swiper-screenshots", {
+const swiperlp = new Swiper("swiper-screenshots", {
     direction: "horizontal",
     loop: true,
     centeredSlides: true,
