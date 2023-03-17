@@ -2,104 +2,115 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="robots" content="noindex" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/custom_bootstrap.css">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../01_css/styles-app.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/custom_bootstrap.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../01_css/styles-app.css">
+  <title>Document</title>
 </head>
 
 <body class="artworkbody bg-dark">
-    <header>
-        <nav class="navbar navbaroeuvre fixed-top">
-            <div class="container-fluid">
-<!--retour-->
-<a href="index.html">
-                <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#b08ff6" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
-                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-                      </svg>
-      </button>
-    </a>
-              
-                <!--like-->    
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"  class="bi bi-balloon-heart" viewBox="0 0 16 16" fill="#b08ff6">
-                        <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                      </svg>
-      
-            </div>
-        </nav>
-    </header>
-    <main class="mainartwork">
-        <div class="topartwork bg-secondary">
-        <div class="container col-12">
+  <header>
+    <nav class="navbar navbaroeuvre fixed-top">
+      <div class="container-fluid">
+        <!--retour-->
+        <a href="index.html">
+          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#b08ff6" class="bi bi-caret-left-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+            </svg>
+          </button>
+        </a>
+
+        <!--like-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="bi bi-balloon-heart" viewBox="0 0 16 16"
+          fill="#b08ff6">
+          <path fill-rule="evenodd"
+            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+        </svg>
+
+      </div>
+    </nav>
+  </header>
+  <main class="mainartwork">
+    <div class="topartwork bg-secondary">
+      <div class="container ">
         <div class="row ">
-       <img class="imgoeuvreartwork" src="../00_assets/artworks/file-sp-2018-george-redhawk3.gif" alt="George">
-    </div>
-</div>
-</div>
-
-<section>
-    <div class="container titleartwork bg-dark">
-        <div class="row " >
-        <h1>Stripes</h1>
-    </div>
-    <section class="map d-flex justify-content-between">
-        <i class="bi bi-geo-alt-fill">Cégep Montmorency</i>
-            <i class="bi bi-calendar-heart"> 17 février 2023</i>
-            
-      
-    </section>
-    <section>
-        <h2 class="titledeux">Artiste</h2>
-<div class="d-flex  justify-content-center">
-        <div class="container">
-        <div class="cardartwork row bg-secondary">
-                        
-            <div class="card-body">
-                <img src="../00_assets/artists/joy.jpg" class="card-img-top bottomimage col-4" alt="...">
-                <div class="card-title">George Redhawk</div>
-    
-                    
-           
-                <p class="card-text"> George est un artiste de très haute qualité. Ce qui le distingue des autres est le fait que c'est un chien et qu'il est plus capable de faire n'importe quoi qu'un humain.</p>
-             <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-En savoir plus
-  </button>
-
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img class="imgoeuvreartwork col-12" src="../00_assets/artworks/file-sp-2018-george-redhawk3.gif"
+            alt="George">
         </div>
-        <div class="modal-body">
-          George est une personne vraiment différente des autres. Il n'est pas un être humain comme le peux prétendre ses aptitude, MAIS UN CHIEN! Ses capacités et son intelligences sont surnaturel. Afin de mettre ses habiletés en oeuvre, il se tourna vers l'Art, pour montrer ses pensées extraordinaires.
-        </div>
-        
       </div>
     </div>
-  </div>
+
+    <section>
+      <div class="container titleartwork bg-dark">
+        <div class="row ">
+          <h1>Stripes</h1>
+        </div>
+        <section class="map d-flex justify-content-between">
+          <i class="bi bi-geo-alt-fill">Cégep Montmorency</i>
+          <i class="bi bi-calendar-heart"> 17 février 2023</i>
+
+
+        </section>
+        <section>
+          <h2 class="titledeux">Artiste</h2>
+          <div class="d-flex  justify-content-center">
+            <div class="container">
+              <div class="cardartwork row bg-secondary">
+
+                <div class="card-body">
+                  <img src="../00_assets/artists/joy.jpg" class="card-img-top bottomimage col-4" alt="...">
+                  <div class="card-title">George Redhawk</div>
+
+
+
+                  <p class="card-text"> George est un artiste de très haute qualité. Ce qui le distingue des autres est
+                    le fait que c'est un chien et qu'il est plus capable de faire n'importe quoi qu'un humain.</p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    En savoir plus
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          George est une personne vraiment différente des autres. Il n'est pas un être humain comme le
+                          peux prétendre ses aptitude, MAIS UN CHIEN! Ses capacités et son intelligences sont
+                          surnaturel. Afin de mettre ses habiletés en oeuvre, il se tourna vers l'Art, pour montrer ses
+                          pensées extraordinaires.
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            </div>
-        </div>
-    </section>
-    <h2 class="titledeux">
-        À propos de l'oeuvre
-      </h2> Edition numérique <br> 1920x1080 <br>
-<div class="container">
-    <div class="row col-12">
-    <div class="accordion ">
+          </div>
+        </section>
+        <h2 class="titledeux">
+          À propos de l'oeuvre
+        </h2> Edition numérique <br> 1920x1080 <br>
+        <div class="container">
+          <div class="row ">
+            <!-- <div class="accordion ">
         <div class="accordion-item ">
           <h2 class="accordion-header">
-            <button class="accordion-button bg-primary btn-outline-dark link-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button bg-primary btn-outline-dark link-dark " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Réservez votre place
             </button>
           </h2>
@@ -117,27 +128,55 @@ En savoir plus
             </div>
           </div>
         </div>
-        </div>
-    </div>
-      </div>
-    </main>
-    <footer class="footerartwork">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="text-footer col-sm-6">
-                    Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par Kye Boustany
+        </div>-->
+            <div class="accordion col-12" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed bg-primary link-dark" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                    Réservez votre place
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <form class="container-fluid">
+                      <div class="row">
+                        <input type="email" name="mail" placeholder="Courriel" class="rounded">
+                        <input type="name" name="name" placeholder="Prénom" class="rounded">
+                        <input type="name" name="lastname" placeholder="Nom" class="rounded">
+                        <input type="date" name="date" class="rounded ">
+                        <button type="button" class="btn btn-secondary">Soumettre</button>
+                      </div>
+                  </div>
                 </div>
-                <div class="logo-tim col-sm-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71" style="fill:#d9d9d9;">
-    <circle cx="1113.33" cy="161.28" r="89"></circle>
-    <path d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"></path>
-  </svg>
-                </div>
+
+              </div>
             </div>
-    </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
- 
-    <script src="/02_js/script.js"></script>
+  </main>
+  <footer class="footerartwork">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="text-footer col-sm-6">
+          Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par Kye Boustany
+        </div>
+        <div class="logo-tim col-sm-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71"
+            style="fill:#d9d9d9;">
+            <circle cx="1113.33" cy="161.28" r="89"></circle>
+            <path
+              d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z">
+            </path>
+          </svg>
+        </div>
+      </div>
+  </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+
+  <script src="/02_js/script.js"></script>
 
 </body>
 
