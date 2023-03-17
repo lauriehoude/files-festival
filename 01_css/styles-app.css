@@ -169,7 +169,7 @@ a {
 }
 
 #lescartes {
-  width: 140%;
+  overflow: hidden;
 }
 
 .dyan {
