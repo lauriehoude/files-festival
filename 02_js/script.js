@@ -1,3 +1,5 @@
+const mySwiperlp = new Swiper(swiperContainer, parameters);
+
 
 
 
@@ -18,3 +20,4 @@ const swiperlp = new Swiper(".swiper-screenshots", {
         },
     },
 });
+alert("asa")
