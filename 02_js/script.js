@@ -21,3 +21,11 @@ const swiperlp = new Swiper(".swiper-screenshots", {
     },
 });
 alert("asa")
+
+
+const swiperapp = new Swiper(".swiper-filters", {
+    direction: "horizontal",
+    freeMode:{
+        enable: true,
+    },
+});
